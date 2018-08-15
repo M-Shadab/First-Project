@@ -15,6 +15,7 @@ int knapsack(int value[], int weight[], int size, int wt, int val){
 	//2. don't pick 0th value 0:Case
 	int ans2 = knapsack(value + 1, weight + 1, size - 1, wt, val);
 
+	//return max of two options from ans1 or ans2
 	return max(ans1, ans2);
 }
 
