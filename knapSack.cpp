@@ -2,7 +2,7 @@
 using namespace std;
 
 //0-1 Knapsack :: Pick(=1)  and Not pick(=0)
-int knapsack(int value[], int weight[], int size, int wt, int val){
+int knapsackBrute(int value[], int weight[], int size, int wt, int val){
 	//No value is left or Knapsack wt is 0 or become 0
 	if(size == 0 || wt == 0)	return val;
 
