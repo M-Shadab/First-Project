@@ -20,8 +20,10 @@ int knapsack(int value[], int weight[], int size, int wt, int val){
 }
 
 int main(){
-	int value[] = {60, 100, 120, 230};
-	int weight[] = {10, 20, 30, 100};
+	int value[] = {60, 100, 120};
+	int value1[] = {60, 100, 120};
+
+	int weight[] = {10, 20, 30};
 	int wt = 50;
 
 	int maxValue = knapsackNaive(value, weight, 3, wt, 0);
