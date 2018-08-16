@@ -24,7 +24,7 @@ int main(){
 	int weight[] = {10, 20, 30, 100};
 	int wt = 50;
 
-	int maxValue = knapsack(value, weight, 3, wt, 0);
+	int maxValue = knapsackNaive(value, weight, 3, wt, 0);
 	
 	cout << maxValue << endl;
 	
