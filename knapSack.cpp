@@ -1,5 +1,5 @@
-#include <iostreamusing namespace std;
->
+#include <iostream>
+using namespace std;
 
 //0-1 Knapsack :: Pick(=1)  and Not pick(=0)
 int knapsack(int value[], int weight[], int size, int wt, int val){
