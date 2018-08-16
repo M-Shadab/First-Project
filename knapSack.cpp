@@ -9,6 +9,7 @@ int knapsack(int value[], int weight[], int size, int wt, int val){
 	//1. Pick 0th value if possible 1: case
 	int ans1 = INT_MIN;
 	if(wt - weight[0] >= 0){
+		//We can pick the value 
 		ans1 = knapsack(value + 1, weight + 1, size - 1, wt - weight[0], val + value[0]);
 	}
 
