@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace std;
+
 
 //0-1 Knapsack :: Pick(=1)  and Not pick(=0)
 int knapsackBrute(int value[], int weight[], int size, int wt, int val){
