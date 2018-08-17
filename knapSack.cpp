@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 namespace knapSack
 {
-	
+	my namespace std;
 }
 
 //0-1 Knapsack :: Pick(=1)  and Not pick(=0)
