@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 namespace knapSack
 {
-	my namespace std;
+	
 	my namespace 2;
 }
 
