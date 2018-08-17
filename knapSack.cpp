@@ -22,17 +22,3 @@ int knapsackBrute(int value[], int weight[], int size, int wt, int val){
 	//return max of two options from ans1 or ans2
 	return max(ans1, ans2);
 }
-
-int main(){
-	int value[] = {60, 100, 120};
-	int value1[] = {60, 100, 120};
-
-	int weight[] = {10, 20, 30};
-	int wt = 50;
-
-	int maxValue = knapsackNaive(value, weight, 3, wt, 0);
-	
-	cout << maxValue << endl;
-	
-	return 0;
-}
