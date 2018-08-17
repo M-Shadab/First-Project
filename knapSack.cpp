@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 //0-1 Knapsack :: Pick(=1)  and Not pick(=0)
